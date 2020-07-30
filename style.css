@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -119,22 +119,6 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -193,11 +177,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
-
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
@@ -253,7 +232,7 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .btn-wire,
@@ -332,22 +311,17 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
-
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0);
     width: 26px;
 }
 
@@ -651,7 +625,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #303030!important;
 }
 
 .container {
@@ -753,7 +727,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(89, 79, 52, 0.67);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,15 +749,16 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color:#303030!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -1043,4 +1018,20 @@ h4 {
 
 .para_big {
     font-size : 22px;
+}
+
+.black{
+    color : black;
+}
+
+.orange-bg-on-focus:hover,
+.orange-bg-on-focus:focus,
+.nav > li > a.orange-bg-on-focus:focus,
+.nav > li > a.orange-bg-on-focus:hover {
+    background-color : rgba(243, 151, 108, 0.62);
+    border-radius : 15px;
+}
+
+.larger-para{
+    font-weight : 800;
 }
